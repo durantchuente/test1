@@ -380,7 +380,7 @@ ul .SousliG3{
         padding: 150% !important;
     } */
       .icoMenu{
-          padding: 8% !important;
+          padding: 4% !important;
       }
       
       .icoMenu img{
@@ -434,16 +434,20 @@ ul .SousliG3{
         padding: 1%;
     }
     /* End secondSlide */
-
-    @media(max-width: 1011px){
+    @media(max-width: 1100px){
+        #icoM{
+            font-size: 17px !important;
+        }
+    }
+    @media(max-width: 1010px){
         /* .eclip{
             right: 60px !important;
         } */
         #icoM{
-            padding: 15%;
+            font-size: 4vw !important;
         }
-        .icoMenuOther{
-            padding: 25px !important;
+        .menuCardOther{
+            padding: 45px !important;
         }
         #carousel .slick-track{
             margin-left: -3% !important;
@@ -455,13 +459,18 @@ ul .SousliG3{
             padding: 20% !important;
         }
     }
+
     @media (max-width: 767px)
 {
     /* .icoMenuOther{
             padding: 5px !important;
         } */
+        .menuCardOther{
+            padding: 10px !important;
+        }
         #icoM{
             padding: 7%;
+            font-size: 3vw !important;
         }
     #carousel .slick-track{
         margin-left: -8% !important;
@@ -491,7 +500,7 @@ ul .SousliG3{
         padding: 10% !important;
     }
     .icoMenu{
-        padding: 15% !important;
+        padding: 13% !important;
     }
     
     .ui{
