@@ -439,9 +439,12 @@ ul .SousliG3{
             padding: 1vw !important;
         } */
     }
-    @media(max-width: 1100px){
+    @media(max-width: 1260px){
         #icoM{
             font-size: 17px !important;
+        }
+        .menuCardOther{
+            padding: 0.5vh !important;
         }
     }
     @media(max-width: 1010px){
@@ -449,10 +452,10 @@ ul .SousliG3{
             right: 60px !important;
         } */
         #icoM{
-            font-size: 4vw !important;
+            font-size: 4.5vw !important;
         }
         .menuCardOther{
-            padding: 45px !important;
+            padding: 1vh !important;
         }
         #carousel .slick-track{
             margin-left: -3% !important;
@@ -502,7 +505,7 @@ ul .SousliG3{
 
 @media (max-width: 575px) {
     #icoM{
-        padding: 10% !important;
+        padding: 1.5vh !important;
     }
     .icoMenu{
         padding: 13% !important;
