@@ -1,5 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
+body{
+    overflow-x: hidden;
+}
 .firstHeader{
     background-color: #343232 !important;
     height: 90px;
